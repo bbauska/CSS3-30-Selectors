@@ -4,18 +4,30 @@ https://css3-selectors.bauska.org/#toc-txlk-x
 <p>So you learned the base id, class, and descendant selectors—and then called it a day? If so, you’re missing out on an enormous level of flexibility. You owe it to yourself to commit these advanced CSS selectors to memory.</p>
 
 <p>Jump to a particular CSS selector from the list:</p>
-
+<ol>
+  <li>&ast;</li>
+  <li>#X</li>
+  <li>.X</li>
+  <li>X</li>
+  <li>X Y</li>
+  <li>X + Y</li>
+  <li>X &gt; Y</li>
+  <li>X ~ Y</li>
+  <li>X[title]</li>
+  <li>X[href="foo"]</li>
+</ol>
+<!-- 
 1. &ast; &nbsp;&nbsp;				6. X + Y
 2. #X	 &nbsp;&nbsp;				7. X > Y
 3. .X	&nbsp;&nbsp;				8. x ~ Y
 4. X	&nbsp;&nbsp;				9. X[title]
 5. X Y	&nbsp;&nbsp;				10. X[href="foo"]
+-->
 
 <h2>Basic Selectors</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>1. &ast;</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <pre>
 * {
  margin: 0;
@@ -41,7 +53,7 @@ The star symbol will target every single element on the page. Many developers wi
   <li> List Item</li>
 </ul>  
 
-css:
+<h4>css:</h4>
 * { 
   border: 1px dotted black; 
 }
@@ -65,14 +77,14 @@ Output: https://codepen.io/tutsplus/pen/XWdOOjE
    margin: auto;
 }
 </pre>
-Prefixing the hash symbol to a selector allows us to target by id. This is easily the most common usage; however, be cautious when using id selectors.
+<p>Prefixing the hash symbol to a selector allows us to target by id. This is easily the most common usage; however, be cautious when using id selectors.</p>
 
 <blockquote>
 Ask yourself: “do I absolutely need to apply an id to this element in order to target it?”
 </blockquote>
-id selectors are rigid and don’t allow for reuse. If possible, first try to use a tag name, one of the more semantic HTML elements, or even a pseudo-class.
+<p><b>id selectors</b> are rigid and don’t allow for reuse. If possible, first try to use a tag name, one of the more semantic HTML elements, or even a pseudo-class.</p>
 
-html:
+<h4>html:</h4>
 <h3>3. #X Selector</h3>
 
 <div id="id-selector">
