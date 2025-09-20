@@ -11,8 +11,10 @@ https://css3-selectors.bauska.org/#toc-txlk-x
 4. X	&nbsp;&nbsp;				9. X[title]
 5. X Y	&nbsp;&nbsp;				10. X[href="foo"]
 
-<h2>Basic Selectors<br>
-1. &ast;</h2>
+<h2>Basic Selectors</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>1. &ast;</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <pre>
 * {
@@ -46,15 +48,17 @@ css:
 
 Output: https://codepen.io/tutsplus/pen/XWdOOjE
 
-The * can also be used with child selectors.
+<p>The &ast; can also be used with child selectors.</p>
 <pre>
 #container * {
  border: 1px solid black;
 }
 </pre>
-This will target every single element that is a child of the #container div. Again, try not to use this technique very much, if ever.
 
-2. #X
+<p>This will target every single element that is a child of the #container div. Again, try not to use this technique very much, if ever.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>2. #X</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 #container {
    width: 960px;
