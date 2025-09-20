@@ -1,6 +1,3 @@
-# CSS3-30-Selectors
-30 CSS Selectors you MUST memorize.
-
 <h1>The 30 CSS Selectors You Must Memorize</h1>
 https://css3-selectors.bauska.org/#toc-txlk-x
 
@@ -8,11 +5,11 @@ https://css3-selectors.bauska.org/#toc-txlk-x
 
 <p>Jump to a particular CSS selector from the list:</p>
 
-1. &ast;				6. X + Y
-2. #X					7. X > Y
-3. .X					8. x ~ Y
-4. X					9. X[title]
-5. X Y					10. X[href="foo"]
+1. &ast; &nbsp;&nbsp;				6. X + Y
+2. #X	 &nbsp;&nbsp;				7. X > Y
+3. .X	&nbsp;&nbsp;				8. x ~ Y
+4. X	&nbsp;&nbsp;				9. X[title]
+5. X Y	&nbsp;&nbsp;				10. X[href="foo"]
 
 <h2>Basic Selectors<br>
 1. &ast;</h2>
