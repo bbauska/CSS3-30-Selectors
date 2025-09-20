@@ -73,7 +73,7 @@ Ask yourself: “do I absolutely need to apply an id to this element in order to
 id selectors are rigid and don’t allow for reuse. If possible, first try to use a tag name, one of the more semantic HTML elements, or even a pseudo-class.
 
 html:
-<h2>#X Selector</h2>
+<h3>3. #X Selector</h3>
 
 <div id="id-selector">
    <p> My paragraph here. </p>
