@@ -9,7 +9,7 @@ https://css3-selectors.bauska.org/#toc-txlk-x
   <li>#X</li>
   <li>.X</li>
   <li>X</li>
-  <li>X Y</li>
+  <li>X&nbsp; Y</li>
   <li>X + Y</li>
   <li>X &gt; Y</li>
   <li>X ~ Y</li>
