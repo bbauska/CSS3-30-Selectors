@@ -41,7 +41,7 @@ https://css3-selectors.bauska.org/#toc-txlk-x
 
 The star symbol will target every single element on the page. Many developers will use this trick to zero out the margins and padding. While this is certainly fine for quick tests, I’d advise you never to use this in production code. It adds too much weight on the browser, and is unnecessary.
 
-<h2>* Selector</h2>
+<h3>* Selector</h3>
 
 <p> My paragraph here. </p>
 
