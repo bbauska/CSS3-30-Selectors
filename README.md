@@ -1,4 +1,6 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>The 30 CSS Selectors You Must Memorize</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 https://css3-selectors.bauska.org/#toc-txlk-x
 
 <p>So you learned the base id, class, and descendant selectors—and then called it a day? If so, you’re missing out on an enormous level of flexibility. You owe it to yourself to commit these advanced CSS selectors to memory.</p>
@@ -23,7 +25,7 @@ https://css3-selectors.bauska.org/#toc-txlk-x
 4. X	&nbsp;&nbsp;				9. X[title]
 5. X Y	&nbsp;&nbsp;				10. X[href="foo"]
 -->
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Basic Selectors</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>1. &ast;</h3>
@@ -85,7 +87,7 @@ Ask yourself: “do I absolutely need to apply an id to this element in order to
 <p><b>id selectors</b> are rigid and don’t allow for reuse. If possible, first try to use a tag name, one of the more semantic HTML elements, or even a pseudo-class.</p>
 
 <h4>html:</h4>
-<h3>3. #X Selector</h3>
+<h4>3. #X Selector</h4>
 
 <div id="id-selector">
    <p> My paragraph here. </p>
@@ -99,7 +101,8 @@ Ask yourself: “do I absolutely need to apply an id to this element in order to
       <li> List Item</li>
    </ul>   
 </div>
-css:
+
+<h4>css:</h4
 <pre>
 #id-selector {
   border: 1px dotted black; 
